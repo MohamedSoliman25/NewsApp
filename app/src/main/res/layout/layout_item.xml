@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="275dp"
+    android:layout_height="@dimen/_250sdp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
-        android:layout_margin="2dp"
-        app:cardCornerRadius="10dp"
+        android:padding="@dimen/_6sdp"
+        android:layout_margin="@dimen/_2sdp"
+        app:cardCornerRadius="@dimen/_6sdp"
         android:id="@+id/cardview"
-        android:elevation="5dp"
+        android:elevation="@dimen/_4sdp"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,20 +18,20 @@
             android:orientation="vertical">
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="@dimen/_45sdp"
                 android:id="@+id/mainHeading"
-                android:padding="5dp"
+                android:padding="@dimen/_4sdp"
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:textColor="@color/black"
                 android:text="Main heading display here main heading display here"
-                android:textSize="20sp"
+                android:textSize="@dimen/_16ssp"
                 android:textStyle="bold"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="@dimen/_110sdp"
                 android:orientation="horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/_6sdp"
                 >
                 <TextView
                     android:layout_width="match_parent"
@@ -41,13 +41,13 @@
                     android:maxLines="6"
                     android:padding="5dp"
                     android:id="@+id/content"
-                    android:textSize="15dp"
+                    android:textSize="@dimen/_14ssp"
                     android:text="Main content Main content"
                     />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="5dp"
+                    android:padding="@dimen/_4sdp"
                     android:layout_weight="1"
                     android:scaleType="centerCrop"
                     android:id="@+id/imageview"
@@ -59,21 +59,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="by Mohamed Soliman"
-                android:textSize="13sp"
+                android:textSize="@dimen/_12ssp"
                 android:textStyle="italic"
                 android:id="@+id/author"
                 android:textColor="@color/purple_200"
-                android:padding="5dp"
+                android:padding="@dimen/_4sdp"
 
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/time"
-                android:padding="5dp"
+                android:padding="@dimen/_4sdp"
                 android:textColor="@color/black"
                 android:text="Published At"
-                android:textSize="12sp"/>
+                android:textSize="@dimen/_10ssp"/>
         </LinearLayout>
 
 
