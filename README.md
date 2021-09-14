@@ -7,6 +7,8 @@ entertainment and technology about some countries such as Egypt, united states,F
 
 - Material design
 - Intuit library for supporting multi-screens
+- Shared Prefrences
+- WebView
 - MVVM
 - REST API (Retrofit2)
 - RxJava
